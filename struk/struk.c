@@ -8,12 +8,19 @@ int main(){
         } typedef operacao;
 		
     operacao x;
+
+    struct idade{
+        int idade;  
+    };
+
+    struct idade i;
+
+    i.idade = 17;
     
 	printf("== BEM-VINDO A OPERACAO DE DOIS ALGARISMOS == \n");
 	
-	printf("Informe o 1o algarismo:");
-	scanf("%d", &x.a);
-	
+    x.a = i.idade;
+
 	printf("Informe o 2o algarismo:");
 	scanf("%d", &x.b);
 	
