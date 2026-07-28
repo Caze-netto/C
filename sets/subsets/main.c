@@ -2,8 +2,8 @@
 #include "./subsets.h"
 
 int main(){
-    int a[] = {1,2,3,4,5};
-    int b[] = {1,2,3,4,5,};
+    int a[] = {1,2,3,4,5,6,7,9,10,20};
+    int b[] = {1,2,3,4,5,6,7,9,10,20,32,54};
 
     int a_size = sizeof(a) / sizeof(a[0]);
     int b_size = sizeof(b) / sizeof(b[0]);

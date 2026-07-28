@@ -15,7 +15,7 @@ int main(){
 
     struct idade i;
 
-    i.idade = 17;
+    i.idade = 21;
     
 	printf("== BEM-VINDO A OPERACAO DE DOIS ALGARISMOS == \n");
 	
